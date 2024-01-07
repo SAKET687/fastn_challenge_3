@@ -1,0 +1,104 @@
+;; ------------------------------------------------------------
+
+-- ftd.shadow s:
+color: black
+x-offset.px: 3
+y-offset.px: 3
+blur.px: 0
+spread.px: 1
+
+-- ftd.color red-orange:
+light: white
+dark: rgb(215, 132, 50)
+
+;; ---------------------------------------------------------------
+
+-- ftd.column:
+height.fixed.px: 485
+width.fixed.px: 350
+background.solid: $red-orange
+align-self: center
+border-radius.px: 5
+margin-top.px: 20
+spacing.fixed.px: 5
+
+-- ftd.image: profile.jpg
+align-self: center
+border-radius.px: 50
+width.fixed.px: 100
+height.fixed.px: 100
+padding-top.px: 5
+shadow: $s
+alt: It's Saket
+margin-top.px: 10
+margin-bottom.px: 25
+
+-- ftd.text: SAKET SRIVASTAVA
+align-self: center
+region: h2
+margin-bottom.px: 5
+color: black
+
+-- ftd.text: MERN Stack Developer
+align-self: center
+margin-bottom.px: 55
+link: mailto:saketsrivastava1245+contact@gmail.com
+color: black
+
+-- ftd.text: LinkedIn
+background.solid: white
+color: rgb(26, 163, 149)
+style: bold
+border-radius.px: 30
+padding-top.px: 15
+padding-bottom.px: 15
+padding-right.px: 131
+padding-left.px: 131
+align-self: center
+margin-bottom.px: 4
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+open-in-new-tab: true 
+
+-- ftd.text: GitHub
+background.solid: white
+color: rgb(26, 163, 149)
+style: bold
+border-radius.px: 30
+padding-top.px: 15
+padding-bottom.px: 15
+padding-right.px: 137
+padding-left.px: 137
+align-self: center
+margin-bottom.px: 4
+link: https://www.github.com/SAKET687/
+open-in-new-tab: true 
+
+-- ftd.text: X (Twitter)
+background.solid: white
+color: rgb(26, 163, 149)
+style: bold
+border-radius.px: 30
+padding-top.px: 15
+padding-bottom.px: 15
+padding-right.px: 125
+padding-left.px: 125
+align-self: center
+margin-bottom.px: 4
+link: https://www.x.com/Saket_Developer/
+open-in-new-tab: true 
+
+-- ftd.text: Instagram
+background.solid: white
+color: rgb(26, 163, 149)
+style: bold
+border-radius.px: 30
+padding-top.px: 15
+padding-bottom.px: 15
+padding-right.px: 128
+padding-left.px: 128
+align-self: center
+margin-bottom.px: 4
+link: https://www.instagram.com/the_dev_verse/
+open-in-new-tab: true 
+
+-- end: ftd.column
