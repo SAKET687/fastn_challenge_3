@@ -27,7 +27,6 @@ align-self: center
 border-radius.px: 50
 width.fixed.px: 100
 height.fixed.px: 100
-padding-top.px: 5
 shadow: $s
 alt: It's Saket
 margin-top.px: 10
